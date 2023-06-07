@@ -43,7 +43,9 @@ public class SubmitOrderTest extends BaseTest {
 			ConfirmationPage confirmationPage = checkoutPage.submitOrder(); 
 			String confirmationMessage = confirmationPage.getConfirmationMessage();
 			Assert.assertEquals(confirmationMessage, "THANKYOU FOR THE ORDER.");
-			
+			System.out.println("This is Github change made in github demo project ");
+			System.out.println("This is Github change made in github demo project ");
+
 		
 		}
 		
